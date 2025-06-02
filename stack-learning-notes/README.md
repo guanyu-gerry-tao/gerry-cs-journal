@@ -8,13 +8,13 @@
 - [Validation Fallback](./HTML/Validation%20Fallback.md)
 
 ## CSS
-- [CSS Introduction](./HTML/CSS%20Introduction.md)
-- [CSS Frameworks](./HTML/CSS%20Frameworks.md)
-- [CSS Cheatsheet](./HTML/CSS%20Cheatsheet.md)
-- [CSS 伪元素笔记（Pseudo-elements）](./HTML/CSS%20伪元素笔记（Pseudo-elements）.md)
-- [CSS Selectors 笔记整理](./HTML/CSS%20Selectors%20笔记整理.md)
-- [Flex 对齐属性全梳理笔记](./HTML/Flex%20对齐属性全梳理笔记.md)
-- [Position & DOM Coordinate System 笔记总结](./HTML/Position%20&%20DOM%20Coordinate%20System%20笔记总结.md)
-- [CSS Box Model & box-sizing](./HTML/CSS%20Box%20Model%20&%20box-sizing.md)
+- [CSS Introduction](./CSS/CSS%20Introduction.md)
+- [CSS Frameworks](./CSS/CSS%20Frameworks.md)
+- [CSS Cheatsheet](./CSS/CSS%20Cheatsheet.md)
+- [CSS 伪元素笔记（Pseudo-elements）](./CSS/CSS%20伪元素笔记（Pseudo-elements）.md)
+- [CSS Selectors 笔记整理](./CSS/CSS%20Selectors%20笔记整理.md)
+- [Flex 对齐属性全梳理笔记](./CSS/Flex%20对齐属性全梳理笔记.md)
+- [Position & DOM Coordinate System 笔记总结](./CSS/Position%20&%20DOM%20Coordinate%20System%20笔记总结.md)
+- [CSS Box Model & box-sizing](./CSS/CSS%20Box%20Model%20&%20box-sizing.md)
 
 ## Javascript
