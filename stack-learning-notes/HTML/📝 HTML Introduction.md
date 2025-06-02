@@ -1,17 +1,18 @@
+# 📝 HTML Introduction
 
 HTML example
 
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Sample Page</title>
-	</head>
-	<body>
-		<p>Example paragraph</p>
-		<!-- this is a comment -->
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <p>Example paragraph</p>
+    <!-- this is a comment -->
+  </body>
 </html>
 ```
 
@@ -104,7 +105,7 @@ Uncontained element OK
 | **DOM API**      | **Description**                 |
 | ---------------- | ------------------------------- |
 | document.head    | Returns the `<head>` element    |
-| document.images  | Returns all <img> elements      |
+| document.images  | Returns all `<img>` elements      |
 | document.scripts | Returns all `<script>` elements |
 
 ## Common DOM Methods
@@ -126,8 +127,8 @@ Uncontained element OK
   }
 </script>
 <body>
-	<input type='text' id='textField1'>
-	<input type='button' onClick='textChecker()' value='Submit'>
+  <input type='text' id='textField1'>
+  <input type='button' onClick='textChecker()' value='Submit'>
 </body>
 ```
 
@@ -195,17 +196,17 @@ if (input.type === 'date') {
 
 语义（Semantic）指的是：**标签本身有含义**，能表达出它里面的内容是什么类型、起什么作用。
 
-| **标签** | **语义性强吗？** | **说明** |
-| --- | --- | --- |
-| <div> | ❌ 没有语义 | 只是一个普通容器，没有告诉我们里面是什么 |
-| <header> | ✅ 有语义 | 明确告诉我们：这里是页面的头部内容 |
-| <nav> | ✅ 有语义 | 表示这是导航区域，里面是链接 |
-| <article> | ✅ 有语义 | 表示是独立的一篇文章、帖子、新闻等 |
+| **标签**      | **语义性强吗？** | **说明**               |
+| ----------- | ---------- | -------------------- |
+| `<div>`     | ❌ 没有语义     | 只是一个普通容器，没有告诉我们里面是什么 |
+| `<header>`  | ✅ 有语义      | 明确告诉我们：这里是页面的头部内容    |
+| `<nav>`     | ✅ 有语义      | 表示这是导航区域，里面是链接       |
+| `<article>` | ✅ 有语义      | 表示是独立的一篇文章、帖子、新闻等    |
 
 | **概念** | **含义** | **举例** |
 | --- | --- | --- |
-| 结构化 | 把页面分成不同区域 | 用 <div> 或 <section> 把内容分块 |
-| 语义化 | 用有意义的标签表达内容的角色 | 用 <header>、<nav>、<article> 而不是 <div> |
+| 结构化 | 把页面分成不同区域 | 用 `<div>` 或 `<section>` 把内容分块 |
+| 语义化 | 用有意义的标签表达内容的角色 | 用 `<header>`、`<nav>`、`<article>` 而不是 `<div>` |
 
 先结构化再语义化的例子：
 
