@@ -1,4 +1,4 @@
-# 🔍 `<meta>` 常见内容 Cheatsheet
+# `<meta>` 常见内容 Cheatsheet
 
 `<meta>` 标签用于提供**关于网页的元信息（metadata）**，主要放在 `<head>` 区块中，不直接展示在页面上。以下是常见的 `<meta>` 内容类型及其作用：
 

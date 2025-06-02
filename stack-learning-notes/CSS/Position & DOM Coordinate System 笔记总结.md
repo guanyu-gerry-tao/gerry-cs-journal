@@ -1,4 +1,4 @@
-# 📍 Position & DOM Coordinate System 笔记总结
+# Position & DOM Coordinate System 笔记总结
 
 ## **✅ 一、CSS 中 position: absolute 的核心知识点**
 

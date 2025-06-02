@@ -1,4 +1,4 @@
-# 🏷️ 语义化 Semantic block
+# 语义化 Semantic block
 
 语义化的 block（如 `<header>`, `<section>`, `<article>`, `<footer>`, `<nav>` 等）**在结构上本质上就等同于 `<div>`**，它们在浏览器中呈现的默认行为几乎一样——都是一个块级容器。
 

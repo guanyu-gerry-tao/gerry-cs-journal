@@ -1,4 +1,4 @@
-# 📚 CSS Selectors 笔记整理
+# CSS Selectors 笔记整理
 
 ## **1. 基本选择器（Basic Selectors）**
 

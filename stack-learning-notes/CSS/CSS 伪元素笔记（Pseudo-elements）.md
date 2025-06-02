@@ -1,4 +1,4 @@
-# 🎨 CSS 伪元素笔记（Pseudo-elements）
+# CSS 伪元素笔记（Pseudo-elements）
 
 > 官方文档参考 - MDN
 

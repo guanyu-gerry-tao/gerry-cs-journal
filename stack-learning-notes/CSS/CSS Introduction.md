@@ -1,4 +1,4 @@
-# 🎨 CSS Introduction
+# CSS Introduction
 
 ## **CSS 与 HTML 的关系**
 

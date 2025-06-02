@@ -1,4 +1,4 @@
-# 📋 HTML Tags Cheatsheet
+# HTML Tags Cheatsheet
 
 ## **📄 文档结构标签**
 

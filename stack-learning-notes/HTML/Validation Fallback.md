@@ -1,4 +1,4 @@
-# ✅ Validation Fallback
+# Validation Fallback
 
 - 有些老旧或特定的浏览器可能**不支持 HTML5 表单的自动验证功能**（例如 required、type="email"、min、max 等属性）。
 - 为了确保用户输入仍然被正确验证，可以使用以下几种策略：

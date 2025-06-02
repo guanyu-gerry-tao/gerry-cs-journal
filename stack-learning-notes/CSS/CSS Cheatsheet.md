@@ -1,4 +1,4 @@
-# 📋 CSS Cheatsheet
+# CSS Cheatsheet
 
 ```css
 selector {

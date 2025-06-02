@@ -1,4 +1,4 @@
-# 📦 CSS Box Model & box-sizing
+# CSS Box Model & box-sizing
 
 ## **🔹 Box Model 构成**
 

@@ -1,4 +1,4 @@
-# ⌨️ Input 元素属性
+# Input 元素属性
 
 
 | Input 类型            | 功能说明                | 浏览器不支持时行为                | 备注                        |
@@ -30,7 +30,7 @@
 
 ### list + datalist
 
-![image.png](gerry-cs-journal/stack-learning-notes/HTML/src/⌨️%20Input%20元素属性/image.png)
+![image.png](gerry-cs-journal/stack-learning-notes/HTML/src/Input%20元素属性/image.png)
 
 可以自动完成，但是仍然可以自定义输入
 
