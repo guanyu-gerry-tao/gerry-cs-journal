@@ -1,7 +1,7 @@
 # gerry-s-cs-journal
 
 This repo is Gerry Tao's personal Computer Science study journal, mixed with English and Chinese notes, including:
-- 
+- [Stack Learning Notes](./stack-learning-notes/README.md)
 - Algorithm and Leetcode tasks study notes
 - Environment setting notes
 - CS industry notes
