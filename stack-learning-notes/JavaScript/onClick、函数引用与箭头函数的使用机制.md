@@ -8,7 +8,7 @@
 
 这样的写法。如果把`handleClick()`绑定给了`onClick`会发生什么？
 
-```jsx
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -51,7 +51,7 @@
 - onClick 期望接受一个“**函数引用**”，也就是一个“**点击时才执行的动作**”。
 - 你传入的值必须是一个**可以被执行的函数**，不能是一个函数的执行结果。
 
-```jsx
+```js
 element.onclick = func;     // ✅ 正确：传入函数引用（函数体）
 element.onclick = func();   // ❌ 错误：函数立即执行，传入的是返回值
 ```
@@ -76,7 +76,7 @@ element.onclick = func();   // ❌ 错误：函数立即执行，传入的是返
 - 当我们希望传入参数：func(param) 时，不能直接传（会立即执行）
 - 所以我们用箭头函数**包一层**：
 
-```jsx
+```js
 element.onclick = () => func("Tom");
 ```
 
@@ -124,7 +124,7 @@ function ChangeBackground()
 
 本质上浏览器会把你写的这段代码当作字符串解析成函数体，就像自动帮你做了：
 
-```jsx
+```js
 element.onclick = function () {
   ChangeBackground();
 };
@@ -144,7 +144,7 @@ element.onclick = function () {
 
 在 React 事件绑定中常见写法 () => handleClick() 本质上是一个箭头函数。如果箭头函数体是一个**单一表达式**，则可以省略 {} 和 return，直接返回表达式结果。
 
-```jsx
+```js
 x => x + 1         // ✅ 自动返回 x + 1
 x => { return x + 1 } // ✅ 明确写 return
 x => { x + 1 }     // ❌ 返回 undefined，因为没有 return
@@ -152,7 +152,7 @@ x => { x + 1 }     // ❌ 返回 undefined，因为没有 return
 
 这种简写常用于传递更新函数或事件处理器，如：
 
-```jsx
+```js
 onClick={() => handleClick()}
 setCount(prev => prev + 1)
 ```

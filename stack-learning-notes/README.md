@@ -19,3 +19,8 @@
 
 ## Javascript
 - [onClick、函数引用与箭头函数的使用机制](JavaScript/onClick、函数引用与箭头函数的使用机制.md)
+- [JavaScript 闭包（Closure）笔记](JavaScript/JavaScript%20闭包（Closure）笔记.md)
+- [JavaScript 常见写法 语法结构总览](JavaScript/JavaScript%20常见写法%20语法结构总览.md)
+- [JavaScript 解构赋值与函数参数括号总结](JavaScript/JavaScript%20解构赋值与函数参数括号总结.md)
+- [JavaScript Event Bubbling & Delegation 笔记（事件冒泡和事件委托）](JavaScript/JavaScript%20Event%20Bubbling%20&%20Delegation%20笔记（事件冒泡和事件委托）.md)
+- [JavaScript map() 笔记](JavaScript/JavaScript%20map()%20笔记.md)
