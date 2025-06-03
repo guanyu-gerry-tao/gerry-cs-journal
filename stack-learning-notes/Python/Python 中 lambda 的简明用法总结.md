@@ -10,6 +10,8 @@ xfunc = lambda x: x + 1
 def xfunc(x):
 	x += 1
 	return x
+
+print(xfunc(3)) # 输出 4
 ```
 
 当 `lambda` 作为一个key的时候，例如以下例子：
@@ -18,8 +20,11 @@ data = [[1,3], [2,4], [5,2]]
 data.sort(key=lambda x: x[1])  # 按每个子数组的第2个元素排序
 ```
 此时`data.sort`会把data里每一个item输入，即`[1,3], [2,4], [5,2]`逐个输入
+
 然后根据`lambda x: x[1]`的定义，会将每个item的第二项==返回==给key
+
 所以`data.sort`就会根据data里每个项的==第二项==的大小排列
+
 结果就是`[5,2], [1,3], [2,4]`
 
 ---
