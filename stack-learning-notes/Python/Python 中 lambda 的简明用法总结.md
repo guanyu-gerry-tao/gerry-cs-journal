@@ -16,7 +16,7 @@ print(xfunc(3)) # 输出 4
 
 当 `lambda` 作为一个key的时候，例如以下例子：
 ```python
-data = [[1,3], [2,4], [5,2]]
+data = [1,3](1,3)
 data.sort(key=lambda x: x[1])  # 按每个子数组的第2个元素排序
 ```
 此时`data.sort`会把data里每一个item输入，即`[1,3], [2,4], [5,2]`逐个输入
@@ -33,7 +33,7 @@ data.sort(key=lambda x: x[1])  # 按每个子数组的第2个元素排序
 
 ### 1. 作为排序的 key 函数
 ```python
-data = [[1,3], [2,4], [5,2]]
+data = [1,3](1,3)
 data.sort(key=lambda x: x[1])  # 按每个子数组的第2个元素排序
 ```
 
