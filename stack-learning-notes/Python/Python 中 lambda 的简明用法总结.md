@@ -21,9 +21,9 @@ data.sort(key=lambda x: x[1])  # 按每个子数组的第2个元素排序
 ```
 此时`data.sort`会把data里每一个item输入，即`[1,3], [2,4], [5,2]`逐个输入
 
-然后根据`lambda x: x[1]`的定义，会将每个item的第二项<mark>返回</mark>给key
+然后根据`lambda x: x[1]`的定义，会将每个item的第二项<mark>返回</mark>给key，即 3, 4, 2
 
-所以`data.sort`就会根据data里每个项的<mark>第二项</mark>的大小排列
+所以`data.sort`就会根据data里每个项的<mark>第二项</mark>的大小排列 3, 4, 2 => 2, 3, 4
 
 结果就是`[5,2], [1,3], [2,4]`
 
