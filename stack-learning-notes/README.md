@@ -41,18 +41,18 @@
 
 # 其他
 ## Python
-- [[刷题Python基础]]
-- [[设置虚拟环境]]
+- [刷题Python基础](Python/刷题Python基础.md)
+- [设置虚拟环境](Python/设置虚拟环境.md)
 
 ## Bash
-[[Bash - 终端语言]]
+[Bash - 终端语言](Bash/Bash%20-%20终端语言.md)
 
 # 工具与通用语言
 ## 正则表达式 Regex
-- [[Regex 正则表达式]]
+- [Regex 正则表达式](Utilities/Regex%20正则表达式.md)
 
 ## 数学公式 LaTex
-- [[LaTeX 数学公式语法]]
+- [LaTeX 数学公式语法](Utilities/LaTeX%20数学公式语法.md)
 
 ## Git & Github
-- [[Github 配置]]
+- [Github 配置](Utilities/Github%20配置.md)
