@@ -42,6 +42,7 @@
 # 其他
 ## Python
 - [刷题Python基础](Python/刷题Python基础.md)
+- [Python 中 lambda 的简明用法总结](Python/Python%20中%20lambda%20的简明用法总结.md)
 - [设置虚拟环境](Python/设置虚拟环境.md)
 
 ## Bash
