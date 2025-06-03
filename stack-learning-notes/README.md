@@ -35,3 +35,20 @@
 - [useReducer 入门笔记（简明计数器示例）](React/useReducer%20入门笔记（简明计数器示例）.md)
 - [React Context 简明笔记](React/React%20Context%20简明笔记.md)
 - [React Context 简明笔记](React/React%20Context%20简明笔记.md)
+
+# 后端技术栈
+
+
+# 其他
+## Python
+- [[刷题Python基础]]
+
+## Bash
+[[Bash - 终端语言]]
+
+# 工具与通用语言
+## 正则表达式 Regex
+- [[Regex 正则表达式]]
+
+## 数学公式 LaTex
+- [[LaTeX 数学公式语法]]
