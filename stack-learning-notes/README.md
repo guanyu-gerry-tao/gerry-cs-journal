@@ -42,6 +42,7 @@
 # 其他
 ## Python
 - [[刷题Python基础]]
+- [[设置虚拟环境]]
 
 ## Bash
 [[Bash - 终端语言]]
@@ -52,3 +53,6 @@
 
 ## 数学公式 LaTex
 - [[LaTeX 数学公式语法]]
+
+## Git & Github
+- [[Github 配置]]
