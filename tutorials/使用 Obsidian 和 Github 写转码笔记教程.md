@@ -1,6 +1,13 @@
 # 使用 Obsidian 和 Github 写转码笔记教程
 
-本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。本文由人工结合 ChatGPT 代写。
+本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。
+
+欢迎点一个星号：  
+（为什么要点星号之后会讲解）
+
+[![Star](https://img.shields.io/github/stars/guanyu-gerry-tao/gerry-cs-journal?style=social)](https://github.com/guanyu-gerry-tao/gerry-cs-journal)
+
+![](src/Pasted%20image%2020250603182946.png)
 
 # ❓为什么要写笔记？
 
@@ -544,6 +551,7 @@ GitHub 的搜索栏支持以下内容：
 
 > [!IMPORTANT]
 > **看到这里，也帮我点个星谢谢（滥用一下 Importance）**
+> [![Star](https://img.shields.io/github/stars/guanyu-gerry-tao/gerry-cs-journal?style=social)](https://github.com/guanyu-gerry-tao/gerry-cs-journal)
 
 ## 5.6 项目页核心功能区解释
 
