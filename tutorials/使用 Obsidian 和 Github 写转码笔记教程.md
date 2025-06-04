@@ -281,7 +281,7 @@ Git 是底层工具（依赖项），现在不直接使用它也没关系，但�
             2. 新建一个文件夹，命名 "Obsidian"
             3. 然后回到 Obsidian，选择这个新建的 Obsidian 文件夹作为 Vault 文件夹的地址
         - 对于🪟Windows电脑
-            - 如果需要与苹果手机的 Obsidian App 同步，建议使用付费的 [Obsidian sync](https://obsidian.md/sync) 同步。如果选择使用付费同步，Vault 可以在任意地址，除了 iCloud，onedrive 等云盘下（因为 sync 会和云盘冲突）
+            - 如果需要与苹果手机的 Obsidian App 同步，建议使用付费的 [Obsidian sync](https://obsidian.md/sync) 同步。如果选择使用，Vault 可以在任意地址，除了 iCloud，onedrive 等云盘下（因为 sync 会和云盘冲突）
             - 如果没有在手机上使用的需求，可以把 Vault 建立在任何地方。  
 2. 建立完成后你会进入编辑器界面
 3. 为了使用 Github 备份笔记，必须首先创建一个文件夹，文件夹名建议和你的 Github 项目名一致：my-CS-notes
