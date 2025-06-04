@@ -493,3 +493,13 @@ Obsidian 和 Github 中可以使用拓展的引用语法展示特别的信息：
 
 也可以使用 Obsidian 插件 [Link Converter](obsidian://show-plugin?id=obsidian-link-converter) 来一键将全部笔记从 Obsidian 的默认方式改为 Relative Link。
 
+
+---
+
+终。
+
+---
+
+# 如果我遇到问题怎么办？如果我有其他提问怎么办？
+
+你可以将本页复制给 ChatGPT，然后让 ChatGPT 回答。
