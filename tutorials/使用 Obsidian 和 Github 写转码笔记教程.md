@@ -2,7 +2,9 @@
 
 本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。
 
-欢迎点一个星号：  
+适合像我一样的零基础转码小白，最好是连 Github 是什么都不懂的🤣
+
+阅读前，欢迎点一个星号：  
 （为什么要点星号之后会讲解）
 
 [![Star](https://img.shields.io/github/stars/guanyu-gerry-tao/gerry-cs-journal?style=social)](https://github.com/guanyu-gerry-tao/gerry-cs-journal)
