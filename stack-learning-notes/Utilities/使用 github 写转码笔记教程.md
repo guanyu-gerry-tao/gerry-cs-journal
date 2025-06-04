@@ -73,7 +73,7 @@ Obsidian 是一款基于本地 Markdown 文件（马上会介绍）的知识管�
 - 所有内容都是 .md 文件，存储在你自己的电脑上
 - 通过插件支持 版本控制（Git）、任务管理、自定义界面，配合 git 和 Github 管理和分享笔记
 
-## 0.4你将用 Markdown 做什么？
+## 0.4 你将用 Markdown 做什么？
 
 Markdown 是一种轻量级标记语言
 
@@ -494,12 +494,75 @@ Obsidian 和 Github 中可以使用拓展的引用语法展示特别的信息：
 也可以使用 Obsidian 插件 [Link Converter](obsidian://show-plugin?id=obsidian-link-converter) 来一键将全部笔记从 Obsidian 的默认方式改为 Relative Link。
 
 
+# 👥 Part 5：Github 的社区，协作功能（拓展）
+
+虽然我们已经用 GitHub 实现了版本同步与备份，但 GitHub 更重要的价值，在于它是全球最大开源协作社区。  
+
+你可以在这里找项目、交朋友、展示自己、参与开源协作。
+
+这里只做简单介绍，不做细节介绍。
+
+## 🏠 5.1 GitHub 首页：动态、推荐、浏览
+
+登录 GitHub 后的主页面包括：
+1. Feed 动态流：你关注的项目、用户、组织的活动更新
+2. For you 推荐：算法推荐你可能感兴趣的开源项目
+3. Trending：当前最热门的项目（按语言、时间段筛选）
+
+## 🔍 5.2 搜索功能：找项目、代码、用户 
+
+GitHub 的搜索栏支持以下内容：
+- 输入项目名（如 pytorch、react）
+- 输入功能关键词（如 markdown editor、obsidian plugin）
+- 支持使用 topic:、stars:>1000 等过滤条件
+
+> 💡 输入 good first issue 可找到适合新手参与的项目任务！
+
+## 🌐 5.3 Explore 页面：探索新项目与趋势
+访问 [https://github.com/explore](https://github.com/explore)
+- **推荐项目与组织**：根据语言、标签分类
+- **开源精选专题**（Collections）
+- **入门参与点**：如“Good first issue”区，适合刚学会 Git 的用户找任务练手
+
+## 🙋 5.4 你的 GitHub 主页：作品集 + 履历表
+
+点击右上角头像 → **Your profile**，你会看到：
+- **Pinned 项目**：可以固定你想展示的项目（如学习笔记仓库）
+- **绿格子图（contributions）**：显示你每天的提交活跃度
+- **Repositories 标签页**：你的全部项目仓库列表
+- **README 自我介绍**：创建一个与你用户名同名的仓库并写 README，可在主页展示介绍（高级玩法）
+
+## 5.5 项目页核心功能区解释
+
+当你访问任意一个 GitHub 项目页时（包括你自己的），顶部通常有以下几个标签：
+
+|**标签**|**功能简述**|
+|---|---|
+|**Code**|查看项目文件结构、README、下载 ZIP、复制克隆地址等|
+|**Issues**|项目提出的问题（可公开记录 bug、建议、计划），任何人都可以发起|
+|**Pull Requests**|开发者向项目提交改动的请求，可以审查并合并代码|
+|**Actions**|自动化脚本（CI/CD），一般用于部署测试，初学者可忽略|
+|**Projects / Discussions / Wiki**|扩展协作模块，部分项目启用|
+
 ---
 
-终。
 
----
+# Disclaimer
 
-# 如果我遇到问题怎么办？如果我有其他提问怎么办？
+本文由 ChatGPT 协作完成，作者本人也是转码初学者，仍在持续学习中。
+如果你发现任何错误、表述不清、或有更好的改进建议，欢迎直接：
+- 联系我，如果你认识我的话
+- 发一个 Issue 提出问题（自己试试看！）
+- 或者动手发一个 Pull Request，试试看自己修改内容！  
 
-你可以将本页复制给 ChatGPT，然后让 ChatGPT 回答。
+👉 我觉得这正是开源协作的精神，也欢迎你借此跟我一起熟悉 GitHub 的社区流程。
+
+![](src/Pasted%20image%2020250603181606.png)
+
+
+
+# 即使这样，我遇到问题怎么办？如果我有其他提问怎么办？
+
+你可以将本页复制给 ChatGPT，然后让 ChatGPT 回答 😆 
+
+ChatGPT 作为学习伙伴真的很棒
