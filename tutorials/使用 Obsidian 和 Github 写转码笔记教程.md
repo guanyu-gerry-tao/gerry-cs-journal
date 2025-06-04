@@ -23,12 +23,23 @@
 
 至于写成什么样，真的随你，但是以下是一个例子：
 
+这里是一个笔记：
+
+笔记仓库封面：[LesixCoder / Notes-And-Blog](https://github.com/LesixCoder/Notes-And-Blog)  
+其中一篇笔记：[JavaScript 进阶问题列表](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
+
+
+
 这里是一个大佬写的 Github 笔记：  
-[笔记封面页](https://github.com/keyvanakbary/learning-notes/tree/master) / [其中一章](https://github.com/keyvanakbary/learning-notes/blob/master/books/how-to-win-friends-and-influence-people.md)
 
-可以看到他的笔记不只是代码，甚至可以是企业管理学的知识
+笔记仓库封面：[keyvanakbary / learning-notes](https://github.com/keyvanakbary/learning-notes/tree/master)  
+其中一篇笔记：[How to Win Friends and Influence People](https://github.com/keyvanakbary/learning-notes/blob/master/books/how-to-win-friends-and-influence-people.md)
 
-此外，他也可以用英文、西班牙文写。
+可以看到他们的笔记可以不只是代码，甚至可以是企业管理学的知识
+
+但是都是用来记录知识，传授或者复习用的。
+
+此外，他们也可以用英文、中文、西班牙文写。
 
 
 # ❓Part 0：为什么需要 Git，Github，Obsidian 和 Markdown
