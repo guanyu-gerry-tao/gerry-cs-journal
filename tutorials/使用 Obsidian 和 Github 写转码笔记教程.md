@@ -17,8 +17,17 @@
     - [”学然后知不足，教然后知困“ - 礼记·学记](https://baike.baidu.com/item/%E5%AD%A6%E7%84%B6%E5%90%8E%E7%9F%A5%E4%B8%8D%E8%B6%B3%EF%BC%8C%E6%95%99%E7%84%B6%E5%90%8E%E7%9F%A5%E5%9B%B0/6687683)
     - [费曼学习法](https://sspai.com/post/73353)
 - 程序员有记录、写文档的传统，**写清楚比写出来更重要**
+- 方便复习，尤其是自己看得懂
 - 开源精神鼓励**分享知识、组织内容、持续改进**
 - 用 Markdown + GitHub 写笔记，是程序员常用的方法，利于展示和积累
+
+至于写成什么样，真的随你，但是以下是一个例子：
+
+这里是一个大佬写的 Github 笔记：  
+[笔记封面页](https://github.com/keyvanakbary/learning-notes/tree/master) / [其中一章](https://github.com/keyvanakbary/learning-notes/blob/master/books/how-to-win-friends-and-influence-people.md)
+
+可以看到他的笔记不只是代码，甚至可以是企业管理学的知识
+
 
 # ❓Part 0：为什么需要 Git，Github，Obsidian 和 Markdown
 这四者可以结合成超强的转码笔记工作流，适合**现代开发者/写作者/学生/研究人员**。
