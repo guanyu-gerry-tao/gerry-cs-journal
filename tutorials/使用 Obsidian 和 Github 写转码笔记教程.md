@@ -21,16 +21,14 @@
 - 开源精神鼓励**分享知识、组织内容、持续改进**
 - 用 Markdown + GitHub 写笔记，是程序员常用的方法，利于展示和积累
 
-至于写成什么样，真的随你，但是以下是一个例子：
+至于写成什么样，真的随你，但是以下是两个例子：
 
-这里是一个笔记：
+#### 这里是一个 Github 笔记：
 
 笔记仓库封面：[LesixCoder / Notes-And-Blog](https://github.com/LesixCoder/Notes-And-Blog)  
 其中一篇笔记：[JavaScript 进阶问题列表](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
 
-
-
-这里是一个大佬写的 Github 笔记：  
+#### 这里是另一个 Github 笔记：  
 
 笔记仓库封面：[keyvanakbary / learning-notes](https://github.com/keyvanakbary/learning-notes/tree/master)  
 其中一篇笔记：[How to Win Friends and Influence People](https://github.com/keyvanakbary/learning-notes/blob/master/books/how-to-win-friends-and-influence-people.md)
