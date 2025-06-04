@@ -261,6 +261,9 @@ Git 是底层工具（依赖项），现在不直接使用它也没关系，但�
 
 # 📒 Part 3：Obsidian 入门
 
+
+你可以选择参考这一套视频[教程](https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429)进行配置，也可以阅读我的文字版教程。
+
 ## 3.1 安装 Obsidian
 
 1. 打开官网：[https://obsidian.md](https://obsidian.md)
@@ -370,9 +373,6 @@ Obsidian Vault/
         ...
 ```
 
----
-
-除此之外，可以参考这一套[教程](https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429)进行配置
 
 # Part 4：Markdown 基础语法
 
