@@ -1,10 +1,15 @@
 # 使用 github 写转码笔记教程
 
-本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。
+本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。本文由人工结合 ChatGPT 代写。
 
 # ❓为什么要写笔记？
 
-
+- 写笔记是**最有效的学习方式**：
+    - [”学然后知不足，教然后知困“ - 礼记·学记](https://baike.baidu.com/item/%E5%AD%A6%E7%84%B6%E5%90%8E%E7%9F%A5%E4%B8%8D%E8%B6%B3%EF%BC%8C%E6%95%99%E7%84%B6%E5%90%8E%E7%9F%A5%E5%9B%B0/6687683)
+    - [费曼学习法](https://sspai.com/post/73353)
+- 程序员有记录、写文档的传统，**写清楚比写出来更重要**
+- 开源精神鼓励**分享知识、组织内容、持续改进**
+- 用 Markdown + GitHub 写笔记，是程序员常用的方法，利于展示和积累
 
 # ❓Part 0：为什么需要 Git，Github，Obsidian 和 Markdown
 这四者常常一起出现，是**现代开发者/写作者/学生/研究人员**的基本工具组合。
@@ -124,6 +129,9 @@ xfunc() # hello world!
 ## 🍎 1.2 macOS 系统安装 Git
 
 ### ✅ 1.2.1 方法一：使用命令行工具（推荐）
+
+[test][test]
+
 
 1. 打开[“终端” (Terminal)](https://support.apple.com/zh-cn/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac)
 2. 输入以下命令：    
@@ -306,22 +314,182 @@ Git 是底层工具（依赖项），现在不直接使用它也没关系，但�
 
 ![[Snipaste_2025-06-03_16-53-04.png]]
 
-这时候如果看到 "Pushed 1 file "
+这时候如果看到 "Pushed 1 file to remote"，就可以返回 Github，进入你的项目页，往下滚动，就能马上看到你写的东西了。
+
+> [!NOTE]
+> README 是 Github 用来在项目页展示信息的文件。它的全名是 `README.md`，本身是一个 Markdown 格式的文件。
+>
+> README 可以在每一个子文件夹中存在，并且跳转到子文件夹后，也会被展示在这个文件夹的首页。因此，我们可以用以下的格式写我们的笔记，优化笔记展示的体验：
+
+```
+Obsidian Vault/
+└── my-CS-notes
+    ├── README.md   <- 这里是项目的总体介绍、笔记文件夹的导航页
+    ├── stacks
+        ├── README.md  <- 这里是导航页，比如罗列笔记，或者介绍笔记
+        ├── Python
+            ├── python-note-1.md
+            └── python-note-2.md
+        └── Java
+            ├── java-note-1.md
+            └── java-note-2.md
+    └── leetcode
+        ├── README.md  <- 这里是导航页，比如罗列笔记，或者介绍笔记
+        └── greedy-algorithm
+            ├── problem-#1.md
+            └── problem-#2.md
+        ...
+```
 
 ---
 
 除此之外，可以参考这一套[教程](https://forum.obsidian.md/t/the-easiest-way-to-setup-obsidian-git-to-backup-notes/51429)进行配置
 
+# Part 4：Markdown 基础语法
+
+## 4.1 Markdown 教程
+Markdown 是 Github 和 Obsidian 等使用的轻量化标记语言，用纯文本就能写出结构化的内容。这里是一个非常优秀的[教程](https://www.markdowntutorial.com/zh-cn/) 
+
+## 4.2 补充内容
+
+> [!IMPORTANT]
+4.1 的教程缺失部分重要内容，例如”代码块“。代码块是 Markdown 用来展示代码的语法。如果你是写转码笔记，你不可能不用代码块。
+
+### 4.2.1 代码块
+代码块的 Markdown 语法如下：
+
+````
+```python
+print("hello world!")  # hello world!
+```
+````
+
+显示效果如下：
+
+```python
+print("hello world!")  # hello world!
+```
+
+#### 语法解读：
+首先敲入两组 ` ``` ` ，你就可以在两组 ` ``` ` 中编写代码了。  
+代码会被包裹起来，并且以`mono`字体显示（代码用字体）  
+
+如果在第一组` ``` `后面写上代码的语言，例如` ```python`  
+则会给例如`print()`等关键词配色方便阅读。
+
+
+### 4.2.2 行内代码
+观察下面两句话：
+
+- 在 python 中使用 print("hello world") 可以打印出 "hello world"
+- 在 python 中使用 `print("hello world")` 可以打印出 `"hello world"`
+
+第二句话可以将 `print()` 在段落中突出并以代码字体展示，适合强调函数名，变量名，关键命令等内容。
+
+#### 语法解读：
+首先敲入两个 ``` `` ``` ，然后再在里面写入内容。
+
+行内代码不支持上色标记
+
+### 4.2.3 嵌套的代码
+
+如果要编写教程，例如本教程，可以在代码块里嵌套代码块：
+
+`````
+````
+```python
+print("hello world!")
+```
+````
+`````
+
+只要外面一圈代码块比内一圈代码块的`` ` `` 多，就可以将内部的```` ``` ```` 以文字显示出来，而不是被当做 Markdown 语法处理。
+
+---
+
+为了直观显示，以下是本章 Markdown 的截图：
+![[Snipaste_2025-06-03_17-36-43.png]]
+
+---
+
+### 4.2.4 分隔符
+使用分隔符可以有效分割章节。以下是分隔符的语法：
+```markdown
+---
+```
+
+这是使用效果：
+
+---
+
+以上是使用效果。
+
+### 4.2.5 图片
+大部分情况下我们希望将图片截图然后显示在笔记中。
+
+和 word，notion 等不同的是，Markdown 程序（包括 Obsidian 和 Github）需要把图片存储在某个位置，然后用 Relative Link 引入，例如：
+
+`![](src/使用 github 写转码笔记教程/截图1.png)`
+
+- 其中开头的 `!` 表示这是图片而不是文件链接  
+- 其中随后的 `[]` 里面填入”替代文字“，不用填（是当图片不能正常显示时显示出来的文字）
+- 其中括号 `()` 里就是图片的链接地址。
+
+正如例子，这里建议图片存储在以下地址：
 
 ```
-Vault/
-└── my-CS-notes
-    ├── README.md
-    ├── stacks.md
-        ├── python.md
-        └── java.md
-    └── leetcode.md
-        ├── problem #1.md
-        └── problem #2.md
+    my-notes
+    ├── src  <- 这是你这里所有 my-note 下笔记的截图的文件夹
+        ├── 截图1.png  <- 这是你的笔记用到的截图
+        ├── 截图2.png  <- 其他截图
         ...
+    ├── 使用 github 写转码笔记教程.md  <- 这是你的笔记
+    ├── 其他笔记1.md                 <- 其他笔记
+    ├── 其他笔记2.md
+    ...
 ```
+
+你可以在 Obsidian 设置，这样每次粘贴截图的时候，Obsidian 会自动把图片放在如上的位置：
+
+- 打开 `Setting -> Files and links`
+- 将 `Defualt location for new attachments` 改为 `In subfolder under current folder`
+- 将 `Subfolder name` 改为 `src` （或者你自定义的名字）
+
+> [!TIP]
+> 当然你不这么做也可以，这样只是方便管理截图。
+
+### 4.2.6 高亮的提醒，警告：
+在上一章结尾我用了一个 `Tip` 的方块，展示了一些信息。
+Obsidian 和 Github 中可以使用拓展的引用语法展示特别的信息：
+
+```markdown
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+
+![](src/Pasted%20image%2020250603180024.png)
+
+## 4.3 Obsidian 的 Markdown
+> [!WARNING]
+> Obsidian 使用的 Markdown 在链接文件的时候，使用的是 Obsidian 自己的连接方式 Wikilink：`[[笔记名]]` ，这和 Github 使用的标准 Markdown 的 Relative Link `[笔记名](./笔记.md)`方式不同。
+> 
+> 这会导致 README 在 Obsidian 中可以链接到其他笔记，而 Github 中不能。
+
+**解决方法是：**
+
+可以在 `Setting -> Files and Link -> Use [[Wikilink]]` 中关掉这个选项。
+
+也可以使用 Obsidian 插件 [Link Converter](obsidian://show-plugin?id=obsidian-link-converter) 来一键将全部笔记从 Obsidian 的默认方式改为 Relative Link。
+
