@@ -1,4 +1,4 @@
-# 使用 github 写转码笔记教程
+# 使用 Obsidian 和 Github 写转码笔记教程
 
 本教程教授如何使用 obsidian / git / github / markdown 这四个 软件/技术 来进行学习笔记的写作。本文由人工结合 ChatGPT 代写。
 
