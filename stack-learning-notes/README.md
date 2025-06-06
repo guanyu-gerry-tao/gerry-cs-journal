@@ -26,6 +26,7 @@
 - [JavaScript map() 笔记](JavaScript/JavaScript%20map()%20笔记.md)
 
 ## React
+- [全栈 React 项目结构说明 ✅ 从零搭建全栈项目的 6 个步骤](React/全栈%20React%20项目结构说明%20✅%20从零搭建全栈项目的%206%20个步骤.md)
 - [Create-vite 配置 React 项目](React/Create-vite%20配置%20React%20项目.md)
 - [React Props 简要笔记](React/React%20Props%20简要笔记.md)
 - [React 列表渲染笔记：使用 map() 和合理设置 key](React/React%20列表渲染笔记：使用%20map()%20和合理设置%20key.md)
@@ -34,7 +35,8 @@
 - [React 状态（state）是否保留的判断规则](React/React%20状态（state）是否保留的判断规则.md)
 - [useReducer 入门笔记（简明计数器示例）](React/useReducer%20入门笔记（简明计数器示例）.md)
 - [React Context 简明笔记](React/React%20Context%20简明笔记.md)
-- [React Context 简明笔记](React/React%20Context%20简明笔记.md)
+- [React Refs 学习笔记](React/React%20Refs%20学习笔记.md)
+- [React 中的副作用（Side Effects）](React/React%20中的副作用（Side%20Effects）.md)
 
 # 后端技术栈
 
