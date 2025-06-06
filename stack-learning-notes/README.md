@@ -37,6 +37,7 @@
 - [React Context 简明笔记](React/React%20Context%20简明笔记.md)
 - [React Refs 学习笔记](React/React%20Refs%20学习笔记.md)
 - [React 中的副作用（Side Effects）](React/React%20中的副作用（Side%20Effects）.md)
+- [React 使用 Effect 进行同步](React/React%20使用%20Effect%20进行同步.md)
 
 # 后端技术栈
 
