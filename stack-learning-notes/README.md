@@ -40,6 +40,7 @@
 - [React 使用 Effect 进行同步](React/React%20使用%20Effect%20进行同步.md)
 - [React 不需要 Effect 的情况](React/React%20不需要%20Effect%20的情况.md)
 - [React Effect 依赖项问题总结](React/React%20Effect%20依赖项问题总结.md)
+- [React Router v7 学习笔记](React/React%20Router%20v7%20学习笔记.md)
 
 # 后端技术栈
 
